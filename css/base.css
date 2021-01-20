@@ -35,6 +35,9 @@ h1,h2{
     line-height: 1.2;
     margin: 10px 0;
 }
+h3{
+    font-weight: 200;
+}
 
 p{
     margin: 10px 0;
@@ -43,44 +46,3 @@ p{
 img{
     width: 100%;
 }
-
-/* Navbar */
-.navbar {
-    background-color: var(--primary-color);
-    color: #fff;
-    height: 70px;
-}
-
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 40px;
-}
-
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.navbar ul {
-    display: flex;
-}
-
-.navbar a {
-    color: #fff;
-    padding: 10px;
-    margin: 0 5px;
-    
-}
-
-.navbar a:hover {
-    border-bottom: 2px #fff solid;
-}
-
-.navbar .flex {
-    justify-content: space-between;
-}
-  

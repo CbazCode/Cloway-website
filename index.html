@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/showcase.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/stats.css">
+    <link rel="stylesheet" href="css/cli.css">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <title>Cloway | Cloud Hosting For Everyone</title>
@@ -22,5 +27,88 @@
             </nav>
         </div>
     </div>
+
+     <!-- Showcase -->
+     <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Easier Deployment</h1>
+                <p>Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out the form to try a demo of our platform</p>
+                <a href="features.html" class="btn btn-outline">Read More</a>
+            </div>
+
+            <div class="showcase-form card">
+                <h2>Request a Demo</h2>
+                 <!--  <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                      </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form> -->
+                 <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+
+     <!-- Stats -->
+     <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Welcome to the best platform for building applications of all types with modern architecture and scaling
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>10,159,905</h3>
+                    <p class="text-secondary">Deployments</p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>1003 TB</h3>
+                    <p class="text-secondary">Published</p>
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>3,541,265</h3>
+                    <p class="text-secondary">Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cli -->
+    <section class="cli">
+        <div class="container grid">
+            <img src="img/cli.png" alt="">
+            <div class="card">
+                <h3>Easy to use, cross platform CLI</h3>
+            </div>
+            <div class="card">
+                <h3>Deploy in seconds</h3>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
