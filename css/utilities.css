@@ -53,9 +53,103 @@
     transform: scale(0.98);
 }
 
+/* Backgrounds & colored buttons */
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
+/* Text colors */
+.text-primary {
+    color: var(--primary-color);
+  }
+  
+  .text-secondary {
+    color: var(--secondary-color);
+  }
+  
+  .text-dark {
+    color: var(--dark-color);
+  }
+  
+  .text-light {
+    color: var(--light-color);
+  }
+
+/* Text sizes */
+.lead {
+    font-size: 20px;
+  }
+  
+  .sm {
+    font-size: 1rem;
+  }
+  
+  .md {
+    font-size: 2rem;
+  }
+  
+  .lg {
+    font-size: 3rem;
+  }
+  
+  .xl {
+    font-size: 4rem;
+  }
+
 .text-center{
     text-align: center;
 }
+
+/* Alert */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
+  .alert i {
+    margin-right: 10px;
+  }
+  
+  .alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+  }
+  
+  .alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+  }
 
 /*Margin*/
 .my-1{
@@ -79,19 +173,19 @@
 }
 
 .m-1{
-    padding: 1rem;
+    margin: 1rem;
 }
 
 .m-2{
-    padding: 1.5rem;
+    margin: 1.5rem;
 }
 
 .m-3{
-    padding: 2rem;
+    margin: 2rem;
 }
 
 .m-4{
-    padding: 3rem;
+    margin: 3rem;
 }
 
 .m-5{
@@ -116,7 +210,7 @@
 }
 
 .py-5{
-    margin: 4rem 0;
+    padding: 4rem 0;
 }
 
 .p-1{
@@ -136,5 +230,5 @@
 }
 
 .p-5{
-    margin: 4rem 
+    padding: 4rem 
 }
